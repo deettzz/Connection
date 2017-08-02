@@ -1,0 +1,15 @@
+
+
+#container {
+    position: relative;
+}
+
+#example {
+   position: absolute;
+   top: 280px;
+   left: 100px;
+
+   padding: 5px;
+   background-color: white;
+   border: 2px solid red;
+}

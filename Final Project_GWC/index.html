@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href = "stylepage.css">
+  <title>Connection</title>
+  <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/circle-outlines-colored/512/Link_Connection_Share_Connection_Chain_Social-256.png" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="256x256" href="https://cdn1.iconfinder.com/data/icons/circle-outlines-colored/512/Link_Connection_Share_Connection_Chain_Social-256.png" />
+</head>
+<body>
+
+
+  <!--<div id=AddSchool>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfN5TnjrIsrjuROrxLec5S9Pe1VQsN6ujYmqPJUzhShOAPqsg/viewform">Want to add your school? Click Here!</a>
+  </div>-->
+  <nav role="navigation">
+    <div id="menuToggle">
+
+      <input type="checkbox" />
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <a href="#"><li>About Us</li></a>
+  		  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfN5TnjrIsrjuROrxLec5S9Pe1VQsN6ujYmqPJUzhShOAPqsg/viewform?c=0&w=1&includes_info_params=true"><li>Add your School</li></a>
+      </ul>
+    </div>
+  </nav>
+  <h2>Welcome to</h2>
+  <h1>CONNECTION</h1>
+  <img alt="connection" src="https://cdn1.iconfinder.com/data/icons/circle-outlines-colored/512/Link_Connection_Share_Connection_Chain_Social-256.png" style="width:500px;heigh:500px;">
+  <div id=FindSchool>
+    <p>Seach for your school code here --> </p>
+    <form id='search' name='search' onsubmit='redirect();return false;'>
+      <input type='text' id='userInput' name='userInput' value='' size="40" placeholder="School Code...">
+    </form>
+  </div>
+  <script type='text/javascript'>
+
+    function redirect()
+    {
+      var input = document.getElementById('userInput').value;
+      switch(input)
+      {
+        case '304':
+          window.location.replace('carlmont.html');
+          break;
+        case '204':
+          window.location.replace('american.html');
+          break;
+        default:
+          alert("Please enter valid school code!")
+          break;
+      }
+    }
+  </script>
+</body>
+</html>
